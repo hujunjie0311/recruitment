@@ -11,8 +11,7 @@ SQL Server2016
 ## 更新包并且下载
   yum update && yum install -y mssql-server
 ## 运行SQL Server选择版本设置密码
-  /opt/mssql/bin/mssql-conf setup
-### 从1-8选择版本，选择语言，设置sa密码
+  /opt/mssql/bin/mssql-conf setup 从1-8选择版本，选择语言，设置sa密码
 ## 查看SQL Server是否成功启动
   systemctl status mssql-server
 ### 如果出现running，则启动成功.
